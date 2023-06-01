@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.section{
+    margin-top: 10vh;
+    align-self: center;
+}
+.lists{
+    margin-bottom: 1vh;
+}
+li{
+    margin-bottom: 1vh;
+}
+.delete-section{
+    margin-top: 3.4vh;
+}
+.delete{
+    display: flex;
+    width: 45vw;
+    height: 8.8vh;
+    justify-content: space-between;
+   border-radius: 12px;
+    border: 1px solid transparent;
+    background-color: rgb(159, 243, 91);
+    color: royalblue;
+    align-items: center;
+}
+.input-section{
+    display: flex;
+}
+.input-section>input{
+    height: 7vh;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-right: 2px;
+    outline-style: none;
+    outline-color: transparent;
+    border-color: rgb(63, 155, 236);
+    outline-width: 0px;
+    border-width: 1px;
+    text-align: center;
+    width: 35vw;
+    text-indent: 1px;
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(155, 81, 225, 0.319);
+    border-color: transparent;
+}
+.input-section>button{
+    height: 7vh;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 10vw;
+    background-color: darkmagenta;
+    color: azure;
+    outline-style: none;
+    outline-offset: 0;
+    outline-color: transparent;
+    border: 1px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.input-section>button:hover{
+    height: 7vh;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 10vw;
+    background-color: darkmagenta;
+    color: azure;
+    outline-style: none;
+    outline-offset: 0;
+    outline-color: transparent;
+    border: 1px;
+    font-size: 12px;
+    text-shadow: -12px 12px 11.2px goldenrod;
+    border-color: transparent;
+    box-shadow: 1px 2px 1px darkred;
+}
+.delete>p{
+    background-color: transparent;
+    color: rebeccapurple;
+    font-size: 20px;
+    
+}
+.delete-button{
+    height: 7vh;
+    width: 7vw;
+    margin-right: 12px;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    outline-style: none;
+    outline-color: transparent;
+    outline-width: 0;
+    border: 1px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: rgb(15, 128, 43);
+    color: rgb(7, 244, 232);
+}
+.error{
+    
+    margin-top: 1px;
+    color: red;
+    justify-self: center;
+}
+.value{
+    user-select: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
